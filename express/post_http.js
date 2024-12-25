@@ -8,5 +8,5 @@ app.post('/post-demo', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
+  console.log("Server running on http://localhost:3000/get-demo");
 });
