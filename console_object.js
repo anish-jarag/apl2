@@ -6,7 +6,7 @@ console.time("Timer");
 setTimeout(() => {
   console.timeEnd("Timer");
 }, 1000);
-const person = { name: "John", age: 30, city: "New York" };
+const person = { name: "Anish", age: 22, city: "Kolhapur" };
 console.table(person);
 const num = 5;
 console.assert(num === 10, "Number is not equal to 10");
