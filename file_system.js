@@ -6,6 +6,7 @@ fs.writeFileSync("file.txt", "Hello, This is file system");
 //Read file
 const data = fs.readFileSync("file.txt", "utf8");
 console.log(data);
+fs.rea;
 
 //Rename file
 fs.renameSync("file.txt", "newFile.txt");
